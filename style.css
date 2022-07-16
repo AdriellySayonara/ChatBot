@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Amiri', serif;
+    padding: 10em 10em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255,173,214,1);
+    background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+  }
+  
+  @keyframes gradient{
+    0%{
+      background-position: 0% 50%;
+    }
+  
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+}
+
+.glass{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(235, 235, 237, 0.222);
+    padding: 50px;
+    color: #000;
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height: 1.5;
+    transform: translateY(-5%);
+    transition: 0.5s;
+    margin-left: 21rem;
+
+}
+
+.glass-1{
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    padding: 50px;
+    color: #000;
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+
+    line-height: 1.5;
+    transform: translateY(-5%);
+    transition: 0.5s;
+    font-size: 1.0rem;
+
+}
+
+.glass h1{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.glass h2{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.input{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+
+.input input {
+    width: 100%;
+    height: 50%;
+    border: none;
+    padding-left: 15px;
+    padding-top: 0;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+.glass p{
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<title>Chat Bot</title>
+
+</head>
+<body>
+    <div class="glass">
+        <h1>Quer Fazer Alguma Pergunta?</h1>
+        <h2>Olá, Faça Alguma Pergunta!</h2>
+        <div class="input">
+            <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}" placeholder="Digite Sua Pergunta">
+        </div>
+        <p id="chatLog">Resposta Aparecer Aqui</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
